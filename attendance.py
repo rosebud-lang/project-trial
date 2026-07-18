@@ -21,7 +21,7 @@ def mark_attendance(students, attendance):
             attendance[student] += 1
             break
         elif status == "absent":
-            break
+            pass
         else:
             print("Kindly enter Present or Absent.")
 
