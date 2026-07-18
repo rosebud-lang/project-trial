@@ -10,9 +10,7 @@ def initialize_attendance(students):
 
 
 def mark_attendance(students, attendance):
-    """
-    Records attendance for one day.
-    """
+    """Records attendance for one day"""
     print("\nMark Today's Attendance")
     print("-" * 30)
 
