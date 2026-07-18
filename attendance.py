@@ -41,4 +41,20 @@ def display_report(students, attendance, total_days):
             f"{attendance[student]}/{total_days} days "
             f"({percentage}%)")
 
+def save_report(students, attendance, total_days):
+    """
+    Saves the attendance report into a text file.
+    """
+
+    with open("attendance_report.txt", "w") as file:
+
+        file.write("ATTENDANCE REPORT\n")
+        file.write("=" * 40 + "\n")
+
+        for student in students:
+
+            percentage = calculate_percentage(
+                attendance[student],
+                total_days
+            )
 
