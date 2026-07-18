@@ -12,3 +12,4 @@ for day in range(total_days):
 
 display_report(students, attendance, total_days)
 
+save_report(students, attendance, total_days)
