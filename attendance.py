@@ -57,4 +57,11 @@ def save_report(students, attendance, total_days):
                 attendance[student],
                 total_days
             )
+            file.write(
+                f"{student}: "
+                f"{attendance[student]}/{total_days} days "
+                f"({percentage}%)\n"
+            )
+
+    print("\nReport successfully saved to attendance_report.txt")
 
