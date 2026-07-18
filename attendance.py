@@ -28,4 +28,17 @@ def calculate_percentage(attended_days, total_days):
     percentage = (attended_days / total_days) * 100
     return round(percentage)
 
+def display_report(students, attendance, total_days):
+    """Displays the attendance report"""
+    print("\nATTENDANCE REPORT")
+    print("=" * 40)
+
+    for student in students:
+        percentage = calculate_percentage(attendance[student], total_days)
+
+        print(
+            f"{student}: "
+            f"{attendance[student]}/{total_days} days "
+            f"({percentage}%)")
+
 
