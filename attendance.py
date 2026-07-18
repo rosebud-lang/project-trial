@@ -20,4 +20,12 @@ def mark_attendance(students, attendance):
         if status == "present":
             attendance[student] += 1
 
+def calculate_percentage(attended_days, total_days):
+    """Calculates attendance percentage"""
+    if total_days == 0:
+        return 0
+
+    percentage = (attended_days / total_days) * 100
+    return round(percentage)
+
 
