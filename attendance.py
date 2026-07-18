@@ -19,6 +19,11 @@ def mark_attendance(students, attendance):
 
         if status == "present":
             attendance[student] += 1
+            break
+        elif status == "absent":
+            break
+        else:
+            print("Kindly enter Present or Absent.")
 
 def calculate_percentage(attended_days, total_days):
     """Calculates attendance percentage"""
