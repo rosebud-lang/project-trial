@@ -1,7 +1,7 @@
 ATTENDANCE REPORT
 ========================================
-Rosebud: 25/30 days (83%)
-Abnowel: 0/30 days (0%)
-George: 0/30 days (0%)
-Jonathan: 0/30 days (0%)
-Oye: 0/30 days (0%)
+Rosebud: 0/0 days (0%)
+Abnowel: 0/0 days (0%)
+George: 0/0 days (0%)
+Jonathan: 0/0 days (0%)
+Oye: 0/0 days (0%)

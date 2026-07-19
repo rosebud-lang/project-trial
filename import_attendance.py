@@ -4,7 +4,7 @@ students = ["Rosebud","Abnowel","George","Jonathan","Oye"]
 
 attendance = initialize_attendance(students)
 
-total_days = 2
+total_days = 0
 
 for day in range(total_days):
     print(f"\nDay{day + 1}")
