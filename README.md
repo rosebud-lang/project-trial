@@ -1,7 +1,19 @@
-# project-trial
+# Mini-Project
 Class Attendance Tracker
 
-Introduction
+Introduction:
 
 The Classroom Attendance Tracker is a Python-based application developed to assist in recording and managing students’ daily attendance. Attendance tracking is an essential task in educational settings because it provides valuable information about students’ participation and commitment to class activities. This project was designed for a fixed list of five students and demonstrates how programming can be applied to automate routine classroom management tasks. By using Python, the program records attendance, calculates attendance percentages, displays a summary report, and saves the report to a text file for future reference.
 
+Project Description:
+
+The main purpose of the Classroom Attendance Tracker is to simplify the process of recording daily attendance and generating attendance reports. The program prompts the user to enter the attendance status of each student for a given day. The attendance data is then stored and updated over multiple days without losing previous records. At the end of the attendance recording process, the program calculates each student’s attendance percentage based on the formula:
+(days attended / total days) × 100
+The calculated percentages are rounded to produce clear and easy-to-read results. This allows teachers or users to quickly assess each student’s attendance performance.
+
+Team Members:
+
+This project was collaboratively developed by:
+•	Abnowel Sam
+•	Rosebud Awuah
+The collaboration process involved planning the project structure, developing functions, testing the program, and ensuring that the final solution met the project requirements.
