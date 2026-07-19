@@ -17,3 +17,15 @@ This project was collaboratively developed by:
 •	Abnowel Sam
 •	Rosebud Awuah
 The collaboration process involved planning the project structure, developing functions, testing the program, and ensuring that the final solution met the project requirements.
+
+Features of the Program:
+
+The Classroom Attendance Tracker includes several important features that enhance its functionality:
+•	It records attendance for each student on a daily basis.
+•	It supports attendance tracking over multiple school days.
+•	It calculates each student’s attendance percentage.
+•	It displays a summary report showing the attendance records and percentages.
+•	It saves the final attendance report to a text file.
+•	It uses exception handling to prevent the program from crashing when invalid input is entered.
+•	It organizes the code into functions and modules for better readability and maintainability.
+
