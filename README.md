@@ -45,3 +45,19 @@ In addition, the project demonstrates several core Python concepts, including:
 •	User input processing
 •	File handling
 •	Modular programming
+
+Project Structure:
+
+The project is organized into multiple files to improve clarity and maintainability. The main files include:
+•	attendance.py: Contains the functions responsible for initializing attendance records, marking attendance, calculating percentages, displaying reports, and saving reports.
+•	main.py: Serves as the main program file that coordinates the execution of the application.
+•	attendance_report.txt: Stores the generated attendance report after the program is executed.
+•	README.md: Provides documentation and instructions for the project.
+•	.gitignore: Prevents unnecessary files from being uploaded to the GitHub repository.
+
+How to Run the Project:
+
+To run the Classroom Attendance Tracker, the user should first clone the GitHub repository to their local machine. After opening the project folder in Visual Studio Code, the user should open the terminal and execute the command:
+python main.py
+The program will then prompt the user to enter the number of school days and the attendance status of each student. After all attendance data has been entered, the program will display a summary report and automatically generate the attendance_report.txt file.
+
