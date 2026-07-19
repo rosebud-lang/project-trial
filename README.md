@@ -29,3 +29,19 @@ The Classroom Attendance Tracker includes several important features that enhanc
 •	It uses exception handling to prevent the program from crashing when invalid input is entered.
 •	It organizes the code into functions and modules for better readability and maintainability.
 
+Technologies and Programming Concepts Used:
+
+The project was developed using the following technologies and programming concepts:
+•	Python: The primary programming language used to build the application.
+•	Git: Used for version control and tracking changes during development.
+•	GitHub: Used for collaboration and hosting the project repository.
+•	Visual Studio Code (VS Code): Used as the integrated development environment for coding and testing.
+In addition, the project demonstrates several core Python concepts, including:
+•	Functions
+•	Loops
+•	Dictionaries
+•	Conditional statements
+•	Exception handling
+•	User input processing
+•	File handling
+•	Modular programming
